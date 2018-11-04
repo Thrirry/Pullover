@@ -19,10 +19,13 @@ import { RegisterComponent } from './features/register/register.component'
 import { ShoppingCardComponent } from './features/shopping-card/shopping-card.component'
 import { UserComponent } from './features/user/user.component'
 
+import { SharesModule } from './shares/shares.module';
+
 export const APP_MODULES: any[] = [
   BrowserModule,
   AppRoutingModule,
-  HttpClientModule
+  HttpClientModule,
+  SharesModule
 ];
 
 export const APP_COMPONENTS: any[] = [
@@ -37,7 +40,7 @@ export const APP_COMPONENTS: any[] = [
   ProductsComponent,
   RegisterComponent,
   ShoppingCardComponent,
-  UserComponent
+  UserComponent,
 ];
 
 @NgModule({

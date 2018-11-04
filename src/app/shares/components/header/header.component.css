@@ -1,0 +1,88 @@
+.logo-pullshop {
+	width: 120px;
+	height: 40px;
+}
+
+.nav__icon__right {
+    width: 19px;
+    height: 23px;
+    margin-bottom: 5px;
+}
+
+.nav__icon__right li a:hover{
+    color:#099d6e;
+    text-decoration:none
+}
+
+.header__list__rightbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.cookie {
+    height: 60px;
+}
+
+.cookie ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #333333; */
+    background-color: #ffffff;
+}
+
+.cookie ul li {
+    float: left;
+    padding-top: 6px;
+}
+
+.cookie ul li a {
+    display: block;
+    color:#000000;
+    text-align: center;
+    padding: 15px 15px 8px 0px;
+    text-decoration: none;
+}
+
+.button--cookie {
+    text-align: center;
+	font-weight: 300;
+	padding: 10px 0px 10px 0px!important;
+	font-size: .7rem;
+	line-height: 1em;
+	background: 0 0;
+	z-index: 1;
+	overflow: hidden;
+	display: inline-block;
+	position: relative;
+    min-width: 155px;
+    font-family: 'Merriweather', serif;
+    text-transform: lowercase!important;
+}
+
+.cookie ul li a:hover {
+    background-color: #ffffff;
+}
+
+.header__list__rightbar li {
+    float: right;
+    padding-left: 20px;
+}
+
+@media (max-width: 620px ){
+	.logo-pullshop {
+		width: 120px;
+	    height: 40px;
+		vertical-align: middle;
+		display: inline-block;
+		position: relative;
+	}
+}
+
+.phone_second {
+  padding-left: 43px;
+  display: inline;
+}
